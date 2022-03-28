@@ -130,7 +130,6 @@ app = Flask(__name__)
 
 # render home page
 
-
 @ app.route('/')
 def home():
     title = 'Harvestify - Home'
